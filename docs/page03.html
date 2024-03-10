@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            display: flex;
+            padding: 10px 0;
+        }
+        
+        header h1 {
+            margin: 0;
+        }
+        
+        main {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        main section {
+            width: 300px;
+            background-color: #f5f5f5;
+            border-radius: 4px;
+            padding: 20px;
+        }
+        
+        main section h2 {
+            margin-top: 0;
+        }
+        
+        main section form {
+            margin-bottom: 20px;
+        }
+        
+        main section label {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        
+        main section input[type="email"],
+        main section input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 2px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        main section button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        main section button:hover {
+            background-color: #45a049;
+        }
+        
+        main section p {
+            font-size: 14px;
+            color: #777;
+            margin-top: 10px;
+        }
+        
+        main section input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        .pa{
+            display: flex;
+            justify-content: space-between;
+        }
+
+    </style>
+    <title>W3Schools Sign Up</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" width="65" height="55" class="d-inline-block align-text-top">
+    </header>
+    <main>
+        <section>
+            <h2>Sign up</h2>
+            <form action="#">
+                <form action="#">
+                    <div class="pa">
+                        <label for="email">Email</label>
+                        <p>Need an account? <a href="#signup">Sign up</a></p>
+                    </div>
+                    
+                    <input type="email" id="email" name="email" required>
+                    <div class="pa">
+                        <label for="password">Password</label>
+                        <p style="align-items:flex-end;"><a href="#show">Show</a></p>
+                    </div>
+                
+                    <input type="password" id="password" name="password" required>
+    
+                <p style="display: flex;">
+                    <input type="checkbox" id="news" name="news">
+                    <label for="news">Email me with news and updates</label>
+                </p>
+
+                <button type="submit">Sign up for free</button>
+            </form>
+            <p style="text-align: center;">OR</p>
+            <button>Continue with Facebook</button>
+            <button>Continue with Google</button>
+            <button>Continue with GitHub</button>
+            <button>Continue with Feide</button>
+            <footer>
+                <p style="text-align: center;">©1999 - 2024 W3schools. All rights reserved. Cookie policy. Privacy and Terms.</p>
+            </footer>       
+         </section>
+    </main>
+
+</body>
+</html>
